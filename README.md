@@ -1,16 +1,15 @@
-# nailpolish_tryon
+# Nail Detector and Color Changer App
 
-A new Flutter project.
+This Flutter app allows you to detect nails in real-time using the YOLOv5 pretrained model and change the color of the nails using ARCore. It provides an interactive experience for users to experiment with different nail colors virtually.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Real-time nail detection using YOLOv5 pretrained model
+- Augmented Reality (AR) to display changed nail color using ARCore
+- User-friendly interface for easy interaction
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK: [Installation guide](https://flutter.dev/docs/get-started/install)
+- Android device with ARCore support
+- Pretrained YOLOv5 model: [Download here](https://yolov5.weights)
